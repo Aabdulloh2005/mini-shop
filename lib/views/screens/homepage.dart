@@ -1,7 +1,9 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mini_shop/bloc/product_cubit.dart';
 import 'package:mini_shop/bloc/product_state.dart';
+import 'package:mini_shop/bloc/theme_cubit.dart';
 import 'package:mini_shop/models/product.dart';
 
 class Homepage extends StatefulWidget {
@@ -78,6 +80,14 @@ class _HomepageState extends State<Homepage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Mini shop"),
+        actions: [
+          IconButton(
+            onPressed: () {
+              context.read<ThemeCubit>().changeTheme();
+            },
+            icon: const Icon(CupertinoIcons.moon_fill),
+          ),
+        ],
       ),
       body: BlocBuilder<ProductCubit, ProductState>(
         builder: (context, state) {
