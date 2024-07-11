@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "769928819331",
+    "project_id": "uzum-shop",
+    "storage_bucket": "uzum-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769928819331:android:3de6ac7926822bf26de1b6",
+        "android_client_info": {
+          "package_name": "com.example.mini_shop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtXajAPzbiH_B5PlXDHIHnscP0n7j8xho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769928819331:android:57f6316744acd5ff6de1b6",
+        "android_client_info": {
+          "package_name": "com.example.online_shop_animation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtXajAPzbiH_B5PlXDHIHnscP0n7j8xho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
